@@ -7,7 +7,6 @@ fig = plt.figure()
 
 ax = fig.add_subplot(111,projection = "3d")
 
-
 v1 = [1,2,3]
 v2 = [-2,1,4]
 v3 = [0,0,0]
