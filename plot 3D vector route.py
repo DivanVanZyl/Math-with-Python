@@ -33,7 +33,7 @@ for i in range(0,SIZE):
     
 
 # Plot smaller vectors
-prevEnd = [0,0,0] # Previous vector's end, is the current vector's origin
+prevEnd = [0,0,0] # Previous vector's terminal point, is the current vector's origin
 for i in range(0,SIZE):
     print(str(i) + " : " + "origin " + " x = " + str(prevEnd[0]) + " y = " + str(prevEnd[1]) + " z = " + str(prevEnd[2]) + " values " + " x = " + str(vectors[i][0]) + " y = " + str(vectors[i][1]) + " z = " + str(vectors[i][2]))
     ax.quiver(prevEnd[0],prevEnd[1],prevEnd[2],vectors[i][0],vectors[i][1],vectors[i][2], color="red", arrow_length_ratio=0.1)
